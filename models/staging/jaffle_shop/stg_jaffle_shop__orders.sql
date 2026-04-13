@@ -4,4 +4,4 @@
         order_date,
         status
 
-    from PACO_PANTELL_RAW.jaffle_shop.orders
+    from {{ source('jaffle_shop', 'orders') }}
