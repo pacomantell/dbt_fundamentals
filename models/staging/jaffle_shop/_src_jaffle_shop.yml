@@ -1,0 +1,7 @@
+sources:
+  - name: jaffle_shop
+    database: PACO_MANTELL_RAW
+    schema: JAFFLE_SHOP
+    tables:
+      - name: customers
+      - name: orders
