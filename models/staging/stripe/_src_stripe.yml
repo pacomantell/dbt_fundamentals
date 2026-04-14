@@ -1,6 +1,6 @@
 sources:
   - name: stripe
-    database: PACO_MANTELL_RAW
+    database: PACO_PANTELL_RAW
     schema: STRIPE
     tables:
       - name: payment
